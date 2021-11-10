@@ -1,9 +1,9 @@
 package oop
-class Trade (val id: String, val symbol: String, val quantity: Int){
+abstract class Trade (val id: String){
 
   // Second constructor
-  def this (id: String, symbol:String, quantity: Int, price: Double) = {
-    this(id, symbol, quantity)
+  def this (id: String, price: Double) = {
+    this(id)
     this.price = price
   }
 
@@ -18,16 +18,11 @@ class Trade (val id: String, val symbol: String, val quantity: Int){
     }
   }
 
-  def value:Double = quantity * price
-
-  override def toString: String =
-    s"""Trade $symbol ($id):
-       |Quantity= $quantity
-       |Price= $$$price
-       |""".stripMargin
+  def isExecutable: Boolean
+  override def toString: String = s"This is ${this.getClass.getName}"
 }
 
 // Companion object for static methods
-object Trade {
-  def apply(id: String, symbol:String, quantity: Int, price: Double) = new Trade(id, symbol, quantity, price)
-}
+//object Trade {
+//  def apply(id: String, symbol:String, quantity: Int, price: Double) = new Trade(id)
+//}
