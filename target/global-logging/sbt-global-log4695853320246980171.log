@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\User\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\User\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.5 (Oracle Corporation Java 17)
+[debug]       Load.loadUnit: plugins took 94.1199ms
+[debug]       Load.loadUnit: defsScala took 0.275499ms
+[debug] [Loading] Scanning directory C:\Users\User\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\User\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 13.9218 ms
+[debug]           Load.resolveProject(global-plugins) took 33.6471ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\User\.sbt\1.0\plugins, plugins: List(<none>))) took 63.539899ms
+[debug] [Loading] Done in C:\Users\User\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 84.712101ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2006ms
+[debug]     Load.loadUnit(file:/C:/Users/User/.sbt/1.0/plugins/, ...) took 188.895001ms
+[debug]   Load.apply: load took 349.9995ms
+[debug]   Load.apply: resolveProjects took 5.4326ms
+[debug]   Load.apply: finalTransforms took 52.636999ms
+[debug]   Load.apply: config.delegates took 6.8388ms
+[debug]   Load.apply: Def.make(settings)... took 369.1041ms
+[debug]   Load.apply: structureIndex took 88.826899ms
+[debug]   Load.apply: mkStreams took 1.7568ms
+[info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 5510.9564ms
+[debug]           Load.loadUnit: plugins took 16.691801ms
+[debug]           Load.loadUnit: defsScala took 0.0028ms
+[debug] [Loading] Scanning directory C:\Users\User\Documents\TLC 4\tlc-scala-lab\project
+[debug]             Load.loadUnit: mkEval took 6.079ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\User\Documents\TLC 4\tlc-scala-lab\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.0493 ms
+[info] loading settings for project tlc-scala-lab-build from idea.sbt ...
+[debug]               Load.resolveProject(tlc-scala-lab-build) took 2.122401ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id tlc-scala-lab-build, base: C:\Users\User\Documents\TLC 4\tlc-scala-lab\project, plugins: List(<none>))) took 3.570101ms
+[debug] [Loading] Done in C:\Users\User\Documents\TLC 4\tlc-scala-lab\project, returning: (tlc-scala-lab-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2072.885801ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.4788ms
+[debug]         Load.loadUnit(file:/C:/Users/User/Documents/TLC%204/tlc-scala-lab/project/, ...) took 2094.8512ms
+[debug]       Load.apply: load took 2096.4655ms
+[debug]       Load.apply: resolveProjects took 0.0991ms
+[debug]       Load.apply: finalTransforms took 10.825801ms
+[debug]       Load.apply: config.delegates took 0.2933ms
+[debug]       Load.apply: Def.make(settings)... took 72.514299ms
+[debug]       Load.apply: structureIndex took 21.6725ms
+[debug]       Load.apply: mkStreams took 0.003301ms
+[info] loading project definition from C:\Users\User\Documents\TLC 4\tlc-scala-lab\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 4269.0135ms
+[debug]     Load.loadUnit: defsScala took 0.0037ms
+[debug] [Loading] Scanning directory C:\Users\User\Documents\TLC 4\tlc-scala-lab
+[debug]       Load.loadUnit: mkEval took 0.230599ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\User\Documents\TLC 4\tlc-scala-lab, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.8392 ms
+[info] loading settings for project tlc-scala-lab from build.sbt ...
+[debug]         Load.resolveProject(tlc-scala-lab) took 32.895201ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id tlc-scala-lab, base: C:\Users\User\Documents\TLC 4\tlc-scala-lab, plugins: List(<none>))) took 35.9972ms
+[debug] [Loading] Done in C:\Users\User\Documents\TLC 4\tlc-scala-lab, returning: (tlc-scala-lab)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1050.4079ms
+[debug]     Load.loadUnit: cleanEvalClasses took 16.2282ms
+[debug]   Load.loadUnit(file:/C:/Users/User/Documents/TLC%204/tlc-scala-lab/, ...) took 5336.451601ms
+[debug] Load.apply: load took 5338.0428ms
+[debug] Load.apply: resolveProjects took 0.1335ms
+[debug] Load.apply: finalTransforms took 32.180001ms
+[debug] Load.apply: config.delegates took 0.250999ms
+[debug] Load.apply: Def.make(settings)... took 64.6152ms
+[debug] Load.apply: structureIndex took 21.7239ms
+[debug] Load.apply: mkStreams took 0.002599ms
+[info] set current project to tlc-scala-lab (in build file:/C:/Users/User/Documents/TLC%204/tlc-scala-lab/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 61443 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 61443, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to tlc-scala-lab (in build file:/C:/Users/User/Documents/TLC%204/tlc-scala-lab/)
+[debug] > Exec(idea-shell, None, None)

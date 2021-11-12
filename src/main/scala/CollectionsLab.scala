@@ -1,6 +1,5 @@
-import java.util
-import scala.:+
-import scala.collection.{LinearSeq, SortedSet}
+
+import scala.collection.{SortedSet}
 import scala.util.Random
 
 object CollectionsLab {
@@ -9,6 +8,10 @@ object CollectionsLab {
 //    println(removeAgain(Seq(34,6,7,8), 0))
 
     println(lottery)
+
+
+    println(setLottery)
+
   }
 
   // remove element at given index from Sequence Collections
@@ -27,9 +30,10 @@ object CollectionsLab {
   // Lottery
   def lottery ={
     var numbers:SortedSet[Int] = SortedSet()
-    for (i <- 1 to 6){
-      numbers = numbers.+(Random.between(1,49))
-    }
+    for (_ <- 1 to 6) numbers = numbers.+(Random.between(1,49))
     numbers
   }
+
+  val setLottery = SortedSet(Random.shuffle(1 to 49).take(6): _*)
+
 }
